@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* パディングを削除 */
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden; /* コンテンツが画面からはみ出るのを防止 */
+}
+
+textarea {
+    width: 100%;
+    height: 0; /* 高さを0から始めて伸ばす */
+    flex-grow: 1;
+    border: none; /* ボーダーを削除 */
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    font-family: 'Consolas', monospace;
+    box-sizing: border-box; /* パディングとボーダーを幅と高さに含める */
+    overflow-y: auto; /* 必要に応じて垂直スクロールバーを表示 */
+    background-color: #252526;
+    color: #d4d4d4;
+}
+
+#status-bar {
+    padding: 4px 10px; /* パディングを調整 */
+    background-color: #007acc;
+    color: white;
+    border-top: 1px solid #3e3e3e;
+    font-size: 12px;
+    margin-top: 0; /* マージントップを削除 */
+    flex-shrink: 0; /* ステータスバーが縮小されないよう固定 */
+}

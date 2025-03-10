@@ -1,0 +1,47 @@
+{
+  "name": "simple-electron-editor",
+  "version": "1.0.0",
+  "description": "A simple text editor built with Electron.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:windows": "electron-builder --windows",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux",
+    "zip-source": "bestzip source-code.zip src/* package.json README.md"
+  },
+  "keywords": [
+    "electron",
+    "text-editor"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "bestzip": "^2.2.1",
+    "electron": "^25.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.example.simpleeditor",
+    "productName": "Simple Text Editor",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  }
+}
