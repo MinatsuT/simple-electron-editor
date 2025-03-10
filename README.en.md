@@ -1,5 +1,7 @@
 # Simple Electron Text Editor
 
+![Screenshot](screenshot.jpg)
+
 This project is a simple Electron-based text editor generated almost entirely through iterative interaction with GitHub Copilot.
 It was created primarily as a sample for learning basic Electron usage.
 
@@ -57,6 +59,11 @@ To get started with the Simple Electron Text Editor, follow these steps:
 
 To build the application for different platforms:
 
+- **Build for the platform in use:**
+  ```
+  npm run build
+  ```
+
 - **Build for Windows:**
   ```
   npm run build:windows
@@ -70,11 +77,6 @@ To build the application for different platforms:
 - **Build for Linux:**
   ```
   npm run build:linux
-  ```
-
-- **Build for all platforms:**
-  ```
-  npm run build
   ```
 
 The built applications will be output to the dist directory.

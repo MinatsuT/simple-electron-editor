@@ -1,5 +1,7 @@
 # Simple Electron Text Editor
 
+![Screenshot](screenshot.jpg)
+
 このプロジェクトは、ほぼほぼ全てGitHub Copilotとの対話の反復で生成した、シンプルなElectronベースのテキストエディタです。
 主に、Electronの基本的な使い方を学ぶためのサンプルとして作成しました。
 
@@ -57,6 +59,11 @@ Simple Electron Text Editorを使い始めるには、次の手順に従って�
 
 各プラットフォーム向けにアプリケーションをビルドするには：
 
+- **使用中のプラットフォーム用にビルド:**
+  ```
+  npm run build
+  ```
+
 - **Windows向けビルド:**
   ```
   npm run build:windows
@@ -70,11 +77,6 @@ Simple Electron Text Editorを使い始めるには、次の手順に従って�
 - **Linux向けビルド:**
   ```
   npm run build:linux
-  ```
-
-- **すべてのプラットフォーム向けビルド:**
-  ```
-  npm run build
   ```
 
 ビルドされたアプリケーションは dist ディレクトリに出力されます。
