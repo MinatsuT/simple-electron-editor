@@ -1,6 +1,7 @@
 # Simple Electron Text Editor
 
-This project is a simple text editor built using Electron. It provides a basic interface for creating and editing text files.
+This project is a simple Electron-based text editor generated almost entirely through iterative interaction with GitHub Copilot.
+It was created primarily as a sample for learning basic Electron usage.
 
 ## Project Structure
 
@@ -13,9 +14,7 @@ simple-electron-editor
 │   ├── index.html     # HTML structure for the main window
 │   └── styles
 │       └── main.css   # Stylesheet for the application
-├── package.json       # npm configuration file
-├── .gitignore         # Specifies files and directories to ignore in Git
-└── README.md          # Project documentation
+└── package.json       # npm configuration file
 ```
 
 ## Getting Started

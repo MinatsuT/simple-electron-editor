@@ -1,6 +1,7 @@
 # Simple Electron Text Editor
 
-このプロジェクトは、Electronを使用した簡単なテキストエディタです。テキストファイルを作成・編集するためのシンプルなインターフェースを提供します。
+このプロジェクトは、ほぼほぼ全てGitHub Copilotとの対話の反復で生成した、シンプルなElectronベースのテキストエディタです。
+主に、Electronの基本的な使い方を学ぶためのサンプルとして作成しました。
 
 ## プロジェクト構造
 
@@ -13,9 +14,7 @@ simple-electron-editor
 │   ├── index.html     # メインウィンドウのHTML構造
 │   └── styles
 │       └── main.css   # アプリケーションのスタイルシート
-├── package.json       # npm設定ファイル
-├── .gitignore         # Gitで無視するファイルとディレクトリを指定
-└── README.md          # プロジェクトのドキュメント
+└── package.json       # npm設定ファイル
 ```
 
 ## 始め方
@@ -63,7 +62,7 @@ Simple Electron Text Editorを使い始めるには、次の手順に従って�
   npm run build:windows
   ```
 
-- **Mac向けビルド:**
+- **Mac向けビルド（未検証です）:**
   ```
   npm run build:mac
   ```
