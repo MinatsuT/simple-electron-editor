@@ -25,7 +25,7 @@ Simple Electron Text Editorを使い始めるには、次の手順に従って�
 
 1. **リポジトリをクローンする:**
    ```
-   git clone https://github.com/yourusername/simple-electron-editor.git
+   git clone https://github.com/MinatsuT/simple-electron-editor.git
    cd simple-electron-editor
    ```
 

@@ -25,7 +25,7 @@ To get started with the Simple Electron Text Editor, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/simple-electron-editor.git
+   git clone https://github.com/MinatsuT/simple-electron-editor.git
    cd simple-electron-editor
    ```
 
